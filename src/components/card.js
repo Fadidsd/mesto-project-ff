@@ -1,5 +1,5 @@
 // Функция создания карточки
-export function createCard(item, deleteCard) {
+  cardData createCard(item, deleteCard) {
   const cardTemplate = document.querySelector("#card-template").content;
   const cardElement = cardTemplate
     .querySelector(".places__item")
