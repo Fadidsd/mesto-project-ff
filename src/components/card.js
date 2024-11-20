@@ -10,7 +10,7 @@
 
   cardImage.src = cardData.link;
   cardImage.alt = cardData.name;
-  cardElement.querySelector(".card__title").textContent = item.name;
+  cardElement.querySelector(".card__title").textContent = cardData.name;
 
   deleteButton.addEventListener("click", deleteCard);
 
